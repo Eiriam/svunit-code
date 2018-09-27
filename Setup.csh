@@ -18,8 +18,8 @@
 #
 ############################################################################
 
-export SVUNIT_INSTALL=`pwd`
-if [ "${PATH/$SVUNIT_INSTALL\/bin/}" == "$PATH" ]; then
+#export SVUNIT_INSTALL=`pwd`
+#if [ "${PATH/$SVUNIT_INSTALL\/bin/}" == "$PATH" ]; then
 
 setenv SVUNIT_INSTALL `pwd`
 if ( $PATH =~ *$SVUNIT_INSTALL* ) then
